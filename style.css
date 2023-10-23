@@ -18,13 +18,14 @@ body{
 a{
     text-decoration: none;
 }
+/* +++++++++++++++++++++++++ HEADER++++++++++++++++++++++++++++ */
 header{
-    height: 44rem;
+    height: 65rem;
     /* background-color: blueviolet; */
     position: relative;
 }
 header .image-header{
-    width: 250rem;
+    width: 140rem;
     height: 100%;
     background-image: url(image/istockphoto-1420039895-1024x1024.jpg);
     opacity: 0.4;
@@ -34,9 +35,12 @@ header .image-header{
     background-position: center;
 }
 header h1{
-    padding: 12rem;
+    padding: 24rem 12rem 2rem 12rem;
     text-transform: uppercase;
 
+}
+p{
+    padding: 3rem;
 }
 .btn-header{
     color:#fff;
@@ -57,3 +61,8 @@ header h1{
     background-color: #fff;
     color:#007bff ;
 }
+/*  SECTİON-1 +++++++++++ */
+
+
+
+/*  SECTİON-2 +++++++++++ */
