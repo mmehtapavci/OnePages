@@ -18,6 +18,14 @@ body{
 a{
     text-decoration: none;
 }
+img{
+    height: auto;
+    width: 100%;
+}
+main #division-2-list ul {
+    list-style-type:none;
+}
+
 /* +++++++++++++++++++++++++ HEADER++++++++++++++++++++++++++++ */
 header{
     height: 65rem;
@@ -56,13 +64,39 @@ p{
     padding: 1.7rem 3.4rem;
     border: 1px solid rgb(255, 212, 59);
     white-space: nowrap;
+    box-shadow: 1px 2px 3px 2px black;
 }
 .btn-header:hover{
     background-color: #fff;
     color:#007bff ;
+    box-shadow: 1px 2px 3px 6px black;
 }
 /*  SECTİON-1 +++++++++++ */
 
-
+#division-1-main{
+    background-color: black;
+    color: white;
+    padding: 4.4rem 0;
+}
 
 /*  SECTİON-2 +++++++++++ */
+#division-2-list{
+    padding: 2.3rem;
+    background-color: #eeeded;
+    color: #234;
+}
+#area-div{
+    padding: 1.4rem;
+}
+.area img{
+    border-radius: 1rem;
+    opacity: 0.9;
+}
+.area .area-div h3{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#division-3-career{
+    width: 100%;
+    height: 300px;
+}
