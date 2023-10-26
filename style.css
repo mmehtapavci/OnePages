@@ -51,6 +51,10 @@ nav{
 #menu{
     float: right;
 }
+#menu i{
+    margin-right: .5rem;
+}
+
 #menu li{
     display: inline-block;
     margin: 0 12rem 12rem 0;
