@@ -31,6 +31,7 @@ main #division-2-list ul {
     margin: 0 auto;
     padding-left: .6rem;
     padding-right: .6rem;
+    padding-bottom: 2rem;
 }
 
 /*++++++++++++++++++++++++++++ Navbar +++++++++++++++++++ */
@@ -38,10 +39,36 @@ nav{
     background-color: #007bff;
     color: #fff;
     padding: 3rem 0 3rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 10%;
 }
 .btk-akademi{
     color: #fff;
-    font-size: 3.4rem;
+    font-size: 2rem;
+}
+#menu{
+    float: right;
+}
+#menu li{
+    display: inline-block;
+    margin: 0 12rem 12rem 0;
+}
+#menu a{
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    transition: all .3s;
+}
+#menu a:hover{
+    color:#007bff;
+    background-color: #fff;
+    
+}
+#logo{
+    float: left;
 }
 
 /* +++++++++++++++++++++++++ HEADER++++++++++++++++++++++++++++ */
