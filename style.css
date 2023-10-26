@@ -25,6 +25,24 @@ img{
 main #division-2-list ul {
     list-style-type:none;
 }
+/*++++++++++++++++++++++++++++ Container +++++++++++++++++++ */
+.container{
+    width: 120rem;
+    margin: 0 auto;
+    padding-left: .6rem;
+    padding-right: .6rem;
+}
+
+/*++++++++++++++++++++++++++++ Navbar +++++++++++++++++++ */
+nav{
+    background-color: #007bff;
+    color: #fff;
+    padding: 3rem 0 3rem 0;
+}
+.btk-akademi{
+    color: #fff;
+    font-size: 3.4rem;
+}
 
 /* +++++++++++++++++++++++++ HEADER++++++++++++++++++++++++++++ */
 header{
