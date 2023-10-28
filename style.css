@@ -25,6 +25,12 @@ img{
 main #division-2-list ul {
     list-style-type:none;
 }
+.upperCase{
+    text-transform: uppercase;
+}
+.lowerCase{
+    text-transform: lowercase;
+}
 /*++++++++++++++++++++++++++++ Container +++++++++++++++++++ */
 .container{
     width: 120rem;
@@ -171,4 +177,23 @@ background-color: yellow;
     content: "";
     clear: both;
     display: block;
+}
+/* Top Menu */
+#bottom a {
+    position: fixed;
+    width: 90px;
+    height: 30px;
+    background-color:#007bff;
+    color: white;
+    margin-right: 12px;
+    bottom: 0;
+    right: 0;
+    border: 1px solid rgba(8, 20, 124, 0.527);
+    transition: all .4s;
+    margin-bottom: 8px;
+}
+#bottom a:hover{
+    background-color:rgb(109, 141, 211);
+    color:#ffee00;
+    box-shadow: 2px 3px 3px black;
 }
