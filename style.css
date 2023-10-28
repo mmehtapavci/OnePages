@@ -79,7 +79,18 @@ nav{
 }
 #logo{
     float: left;
+    position: relative;
+    top: -30px;
+    
 }
+#logo-image{
+    width: 12rem;
+    height: 7rem;
+}
+#logo-image:hover{
+    opacity: .8;
+}
+
 
 /* +++++++++++++++++++++++++ HEADER++++++++++++++++++++++++++++ */
 header{
@@ -196,4 +207,16 @@ background-color: yellow;
     background-color:rgb(109, 141, 211);
     color:#ffee00;
     box-shadow: 2px 3px 3px black;
+}
+/* Contact */
+
+
+
+/* FOOTER */
+footer{
+    padding: 6rem 6rem 12rem 6rem;
+}
+
+footer a:hover{
+    color: red;
 }
