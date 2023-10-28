@@ -42,7 +42,7 @@ main #division-2-list ul {
 
 /*++++++++++++++++++++++++++++ Navbar +++++++++++++++++++ */
 nav{
-    background-color: #007bff;
+    background-color: #203246;
     color: #fff;
     padding: 3rem 0 3rem 0;
     position: fixed;
@@ -207,10 +207,40 @@ background-color: yellow;
     background-color:rgb(109, 141, 211);
     color:#ffee00;
     box-shadow: 2px 3px 3px black;
+    border-radius: 3rem;
 }
 /* Contact */
+#form-email {
+    width: 100%;
+    /* height: 25rem; */
+}
+#form-group-all {
+    width:100% ;
+    height: auto;
+}
 
-
+.form-control{
+    width: 30%;
+    padding: 2rem;
+    border: 1px solid blueviolet;
+    box-sizing: border-box; 
+    border-radius: .5rem;
+}
+.form-control:focus{
+    border-color:#007bff;
+    background-color: rgb(204, 213, 231);
+}
+.form-group{
+    margin-bottom: .5rem;
+}
+.btn{
+    color: #fff;
+    background-color: #85a2c2;
+    border: 1px solid rgb(16, 8, 65);
+    border-radius: .7rem;
+    padding: .9rem .18rem;
+    width: 15%;
+}
 
 /* FOOTER */
 footer{
