@@ -31,6 +31,37 @@ main #division-2-list ul {
 .lowerCase{
     text-transform: lowercase;
 }
+.col20{
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+
+}
+.col25{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+
+}
+.col50{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+
+}
+.col75{
+    float: left;
+    width: 75%;
+    box-sizing: border-box;
+}
+.col100{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+
 /*++++++++++++++++++++++++++++ Container +++++++++++++++++++ */
 .container{
     width: 120rem;
@@ -137,8 +168,8 @@ p{
     color:#007bff ;
     box-shadow: 1px 2px 3px 6px black;
 }
-/*  SECTİON-1 +++++++++++ */
 
+/*  SECTİON-1 +++++++++++ */
 #division-1-main{
     background-color: black;
     color: white;
@@ -189,7 +220,7 @@ background-color: yellow;
     clear: both;
     display: block;
 }
-/* Top Menu */
+/* Top Menu *******************/
 #bottom a {
     position: fixed;
     width: 90px;
@@ -209,18 +240,25 @@ background-color: yellow;
     box-shadow: 2px 3px 3px black;
     border-radius: 3rem;
 }
-/* Contact */
+/* Contact ***********************/
 #form-email {
     width: 100%;
     /* height: 25rem; */
+    background-color: #f2efef;
 }
+#form-email h1,p {
+    color: black;
+    margin-top: 2rem;
+    padding-top: 3rem;
+}
+
 #form-group-all {
     width:100% ;
     height: auto;
 }
 
 .form-control{
-    width: 30%;
+    width: 50%;
     padding: 2rem;
     border: 1px solid blueviolet;
     box-sizing: border-box; 
