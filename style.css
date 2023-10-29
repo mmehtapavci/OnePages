@@ -22,6 +22,7 @@ img{
     height: auto;
     width: 100%;
 }
+
 main #division-2-list ul {
     list-style-type:none;
 }
@@ -146,6 +147,7 @@ header h1{
 }
 p{
     padding: 3rem;
+    color: #f2efef;
 }
 .btn-header{
     color:#fff;
@@ -240,6 +242,14 @@ background-color: yellow;
     box-shadow: 2px 3px 3px black;
     border-radius: 3rem;
 }
+#division-contact{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: black;
+    width: 100%;
+    min-height: 40rem;
+}
+
 /* Contact ***********************/
 #form-email {
     width: 100%;
@@ -258,8 +268,8 @@ background-color: yellow;
 }
 
 .form-control{
-    width: 50%;
-    padding: 2rem;
+    width: 55%;
+    padding: 1rem;
     border: 1px solid blueviolet;
     box-sizing: border-box; 
     border-radius: .5rem;
@@ -288,3 +298,5 @@ footer{
 footer a:hover{
     color: red;
 }
+/* Responsive Desing  ++++++++++++++++*/
+
