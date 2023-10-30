@@ -2,7 +2,7 @@ $(document).ready(function () {
     $("#accordion").accordion();
 })
 
-$(document).ready(function () {
+$(function () {
     $("#dialogButton").click(function () {
         $("#dialog").dialog();
     });

@@ -398,5 +398,11 @@ footer a:hover{
     }
 }
 #dialog{
-    background-color: rgba(189, 185, 185, 0.486);
+    background-color: rgba(196, 196, 196, 0.884);
+}
+#dialog input{
+    margin-bottom: 1rem;
+    position: relative;
+    left: 1.4rem;
+    top: 1.2rem;
 }
