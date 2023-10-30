@@ -94,6 +94,7 @@ main #division-2-list ul {
     padding-left: .6rem;
     padding-right: .6rem;
     padding-bottom: 2rem;
+    overflow: hidden;
 }
 
 /*++++++++++++++++++++++++++++ Navbar +++++++++++++++++++ */
@@ -112,7 +113,15 @@ nav{
     font-size: 2rem;
 }
 #menu{
-    float: right;
+   position: relative;
+    overflow: hidden;
+    left: 15rem;
+    bottom: 1rem;
+   
+}
+#menu ul {
+    list-style: none;
+    padding: 0;
 }
 #menu i{
     margin-right: .5rem;
@@ -120,11 +129,11 @@ nav{
 
 #menu li{
     display: inline-block;
-    margin: 0 10rem 10rem 0;
+    margin:  1rem;
 }
 #menu a{
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 600;
     letter-spacing: .2rem;
     transition: all .3s;
@@ -137,7 +146,7 @@ nav{
 #logo{
     float: left;
     position: relative;
-    top: -30px;
+    top: -10px;
     left: 80px;
     z-index: 1;
     
@@ -149,6 +158,12 @@ nav{
 }
 #logo-image:hover{
     opacity: .8;
+}
+.bar-icon{
+    display: inline-block;
+    position: relative;
+    bottom: 2.5rem;
+    display: none;
 }
 
 
@@ -336,7 +351,7 @@ footer a:hover{
     }
 }
 
-/* Orta Screen */
+/* Orta Ekran */
 @media screen and (min-width: 769px){
     #division-2-list li {
         width: 47%;
@@ -346,9 +361,10 @@ footer a:hover{
     html {
         font-size: 8px;
     } 
+    
 }
 
-/* Büyük Screen */
+/* Büyük Ekran */
 @media screen and (min-width: 900px){
     #division-2-list li {
         width: 31%;
@@ -363,10 +379,11 @@ footer a:hover{
     }
     #bar-icon {
         display: none;
+
     }
 }
 
-/* En Büyük Screen */
+/* En Büyük Ekran */
 @media screen and (min-width: 1200px) {
     #division-2-list li {
         width: 20%;
@@ -379,7 +396,5 @@ footer a:hover{
     #menu {
         display: inline-block;
     }
-    #bar-icon {
-        display:none;
-    }
+
 }
