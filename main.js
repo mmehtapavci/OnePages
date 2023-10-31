@@ -13,20 +13,6 @@ $(function () {
 
 // Seach
 
-// $(function () {
-//     var autoComplate = [
-//         "Html5",
-//         "Asp",
-//         "C",
-//         "C++",
-//         "Css3",
-//         "JavaScript",
-//         "Jquery"
-//     ];
-//     $("#tags").autoComplate({
-//         source: autoComplate
-//     });
-// });
 $(function () {
     var autoComplete = [
         "Html5",
